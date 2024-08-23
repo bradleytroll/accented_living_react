@@ -1,0 +1,85 @@
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Lora', serif;
+}
+
+.room-container {
+    position: relative;
+    margin: 20px auto;
+}
+
+.room {
+    position: relative;
+    display: inline-block;
+}
+
+.room-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.accent-wall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(20% 20%, 80% 20%, 80% 70%, 20% 70%);
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.color-title {
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.color-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.swatch-container {
+    text-align: center;
+    margin: 10px;
+    width: 100px; /* Set a fixed width for even spacing */
+}
+
+.swatch {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 2px solid #ccc;
+}
+
+.swatch-label {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color: #333;
+    display: block;
+}
+
+.swatch:hover {
+    border-color: #333;
+}
