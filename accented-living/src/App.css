@@ -96,6 +96,69 @@ p {
   color: #555;
 }
 
+/* App.css */
+
+/* Add this CSS for the circular logo image */
+.logo-image {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px; /* Adds space below the logo */
+  object-fit: cover; /* Ensures the image covers the circular area */
+}
+
+/* Contact Form Styling */
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.submit-button:hover {
+  background-color: #555;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
