@@ -29,27 +29,27 @@ function AvailableColors() {
                     <div className="accent-wall" id="accentWall"></div>
                 </div>
             </div>
-            <h2 className="color-title">Select a Behr Paint Color:</h2>
+            <h2 className="color-title">Select a Behr Paint Color</h2>
             <div className="color-options">
                 <div className="swatch-container">
                     <div className="swatch" data-color="#F8B5FA" style={{ backgroundColor: '#F8B5FA' }}></div>
                     <span className="swatch-label">Pink Chintz</span>
                 </div>
                 <div className="swatch-container">
-                    <div className="swatch" data-color="#E32718" style={{ backgroundColor: '#E32718' }}></div>
-                    <span className="swatch-label">Fire Island</span>
+                    <div className="swatch" data-color="#F44A4E" style={{ backgroundColor: '#F44A4E' }}></div>
+                    <span className="swatch-label">Wet Coral</span>
                 </div>
                 <div className="swatch-container">
-                    <div className="swatch" data-color="#FF8C00" style={{ backgroundColor: '#FF8C00' }}></div>
-                    <span className="swatch-label">Goldfish</span>
+                    <div className="swatch" data-color="#EE9E89" style={{ backgroundColor: '#EE9E89' }}></div>
+                    <span className="swatch-label">Ceramic Glaze</span>
                 </div>
                 <div className="swatch-container">
                     <div className="swatch" data-color="#FDE458" style={{ backgroundColor: '#FDE458' }}></div>
                     <span className="swatch-label">Sun Shower</span>
                 </div>
                 <div className="swatch-container">
-                    <div className="swatch" data-color="#54DC00" style={{ backgroundColor: '#54DC00' }}></div>
-                    <span className="swatch-label">Caterpillar</span>
+                    <div className="swatch" data-color="#B1CF65" style={{ backgroundColor: '#B1CF65' }}></div>
+                    <span className="swatch-label">Grass Cloth</span>
                 </div>
                 <div className="swatch-container">
                     <div className="swatch" data-color="#979A63" style={{ backgroundColor: '#979A63' }}></div>
@@ -64,8 +64,8 @@ function AvailableColors() {
                     <span className="swatch-label">Enduring</span>
                 </div>
                 <div className="swatch-container">
-                    <div className="swatch" data-color="#614799" style={{ backgroundColor: '#614799' }}></div>
-                    <span className="swatch-label">Gala Ball</span>
+                    <div className="swatch" data-color="#A290CD" style={{ backgroundColor: '#A290CD' }}></div>
+                    <span className="swatch-label">Garden Flower</span>
                 </div>
                 <div className="swatch-container">
                     <div className="swatch" data-color="#3C3C3D" style={{ backgroundColor: '#3C3C3D' }}></div>
